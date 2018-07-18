@@ -9,13 +9,15 @@ import sinpatron.Vehiculo;
 
 /**
  *
- * @author CltControl
+ * @author Moises
  */
-public class sensoresRetro extends AutoDecorator{
+public class CamaraRetro extends AutoDecorator {
     
-    public sensoresRetro(Vehiculo v) {
+    public CamaraRetro(Vehiculo v) {
         super(v);
     }
     
- 
+    public String getPrestaciones(){
+        return getVehiculo().getPrestaciones()+"Dispositivo: Camara para retro\n";
+    }
 }

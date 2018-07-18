@@ -5,6 +5,12 @@
  */
 package demoensamblaje;
 
+import patrones.CamaraRetro;
+import patrones.ManagerBuilder;
+import patrones.RadioPantallaTactil;
+import patrones.SensoresRetro;
+import patrones.VehiculoAudi;
+import patrones.VehiculoCitroen;
 import sinpatron.*;
 
 /**
@@ -17,6 +23,16 @@ public class DemoEnsamblaje {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        ManagerBuilder mb1 = new ManagerBuilder(new VehiculoCitroen());
+        Vehiculo v1 = mb1.contruirVehiculo();
+        System.out.println(v1.getPrestaciones());
+        
+        ManagerBuilder mb2 = new ManagerBuilder(new VehiculoAudi());
+        Vehiculo v2 = mb2.contruirVehiculo();
+        System.out.println(v2.getPrestaciones());               
+        
+        /*
         //Definir vehiculo
         Vehiculo v1 = new Vehiculo();
         v1.marca = "Citroen";
@@ -62,21 +78,23 @@ public class DemoEnsamblaje {
         
         //Mostrar prestaciones del vehiculo
         System.out.println(v2.getPrestaciones());
-        
+        */
         //--------------------------------------------------
 
         //TODO: Agregar accesorios: radio y sensores de retro a v1
         //Debería agregar estos accesorios como parte de las prestaciones del vehiculo
-                
+        v1 = new RadioPantallaTactil(v1);
+        v1 = new SensoresRetro(v1);                
         //Mostrar prestaciones actualizadas del vehiculo
+        System.out.println(v1.getPrestaciones());
         
         //--------------------------------------------------
         
         //TODO: Agregar accesorios: camara de retro a v2
         //Debería agregar estos accesorios como parte de las prestaciones del vehiculo
-        
-        
+        v2 = new CamaraRetro(v2);        
         //Mostrar prestaciones actualizadas del vehiculo
+        System.out.println(v2.getPrestaciones());
     }
     
 }
