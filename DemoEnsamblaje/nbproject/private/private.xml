@@ -3,17 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/patrones/ManagerBuilder.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/patrones/RadioPantallaTactil.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/patrones/AbstractBuilder.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/patrones/CamaraRetro.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/sinpatron/MotorDiesel.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/patrones/SensoresRetro.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/demoensamblaje/DemoEnsamblaje.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/sinpatron/IMotor.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/sinpatron/Carroceria.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/patrones/AutoDecorator.java</file>
-            <file>file:/C:/Users/Moises/Desktop/PracticaDise-oBD/DemoEnsamblaje/src/sinpatron/Vehiculo.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/patrones/RadioPantallaTactil.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/patrones/ManagerBuilder.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/sinpatron/Vehiculo.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/patrones/AbstractBuilder.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/patrones/AutoDecorator.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/patrones/SensoresRetro.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/patrones/CamaraRetro.java</file>
+            <file>file:/C:/Users/CltControl/PracticaDise-oBD/DemoEnsamblaje/src/demoensamblaje/DemoEnsamblaje.java</file>
         </group>
     </open-files>
 </project-private>

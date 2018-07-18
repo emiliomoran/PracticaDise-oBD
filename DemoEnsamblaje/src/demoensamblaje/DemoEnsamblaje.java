@@ -5,12 +5,7 @@
  */
 package demoensamblaje;
 
-import patrones.CamaraRetro;
-import patrones.ManagerBuilder;
-import patrones.RadioPantallaTactil;
-import patrones.SensoresRetro;
-import patrones.VehiculoAudi;
-import patrones.VehiculoCitroen;
+import patrones.*;
 import sinpatron.*;
 
 /**
